@@ -5,7 +5,7 @@ import seaborn as sns
 from streamlit_option_menu import option_menu
 
 # Load the dataset
-df = pd.read_csv("main_data.csv")
+df = pd.read_csv("dashboard/main_data.csv")
 
 # Ensure datetime columns are in correct format
 df['order_purchase_timestamp'] = pd.to_datetime(df['order_purchase_timestamp'])
