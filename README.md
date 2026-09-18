@@ -1,7 +1,8 @@
 # 📊 E-Commerce Data Analysis Dashboard
 
 This project is an **E-Commerce data analysis and visualization application** built with Python and Streamlit. It explores transactional data through data processing, exploratory data analysis (EDA), and interactive visualizations.
-#URL streamlit cloud: https://ecommercead.streamlit.app/
+
+**URL streamlit cloud: https://ecommercead.streamlit.app/
 
 ## ✨ Features
 
