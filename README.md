@@ -1,22 +1,80 @@
-# Analisis Data E-Commerce Dashboard ✨
+# 📊 E-Commerce Data Analysis Dashboard
 
-## Setup Environment - Anaconda
+This project is an **E-Commerce data analysis and visualization application** built with Python and Streamlit. It explores transactional data through data processing, exploratory data analysis (EDA), and interactive visualizations.
+
+## ✨ Features
+
+* 📊 Exploratory Data Analysis (EDA)
+* 🧹 Data preprocessing
+* 📈 Data visualization
+* 🛒 E-Commerce transaction analysis
+* 🌐 Interactive dashboard using Streamlit
+
+## 🛠️ Tech Stack
+
+* Python
+* Pandas
+* Streamlit
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+## 📂 Project Structure
+
+```text
+AnalisisData/
+├── dashboard/
+│   └── dashboard.py
+├── data/
+├── Proyek_Analisis_Data.ipynb
+├── requirements.txt
+├── README.md
+└── url.txt
 ```
-conda create --name main-ds python=3.9
-conda activate main-ds
+
+## 🚀 Getting Started
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/AyuJuliana/AnalisisData.git
+cd AnalisisData
+```
+
+### 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-## Setup Environment - Shell/Terminal
-```
-mkdir proyek_analisis_data
-cd proyek_analisis_data
-pipenv install
-pipenv shell
-pip install -r requirements.txt
+### 3. Run Streamlit Dashboard
+
+```bash
+streamlit run dashboard/dashboard.py
 ```
 
-## Run steamlit app
+The dashboard will be available at:
+
+```text
+http://localhost:8501
 ```
-streamlit run dashboard.py
+
+## 📌 Project Workflow
+
+```text
+Raw Data
+   ↓
+Data Preprocessing
+   ↓
+Exploratory Data Analysis
+   ↓
+Data Visualization
+   ↓
+Interactive Dashboard
 ```
+
+## 👩🏻‍💻 Author
+
+**Ni Komang Ayu Juliana**
+
+GitHub: https://github.com/AyuJuliana
